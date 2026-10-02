@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LinkShift</string>
+    <string name="share_target_default">Fix link</string>
+    <string name="share_target_share">Fix and share</string>
+    <string name="share_target_copy">Fix and copy</string>
+
+    <string name="toast_no_links">No supported links found</string>
+    <string name="toast_copied">Fixed link copied</string>
+    <string name="chooser_title">Share fixed link</string>
+
+    <string name="section_default_action">Default action</string>
+    <string name="action_share">Share</string>
+    <string name="action_copy">Copy</string>
+    <string name="strip_tracking_title">Remove tracking parameters</string>
+    <string name="strip_tracking_summary">Drops share ids, utm_* and other junk after \"?\" in fixed links</string>
+    <string name="section_try_it">Try it</string>
+    <string name="try_it_hint">Paste text with links</string>
+    <string name="try_it_result">Result</string>
+    <string name="try_it_no_changes">No supported links</string>
+    <string name="section_services">Services</string>
+    <string name="how_to_use">Tap Share in any app and pick LinkShift. Supported links are rewritten, then shared again or copied to the clipboard.</string>
+</resources>
