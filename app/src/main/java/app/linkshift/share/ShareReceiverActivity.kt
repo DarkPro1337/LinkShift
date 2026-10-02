@@ -66,7 +66,7 @@ class ShareReceiverActivity : Activity() {
 
     private fun copy(text: String) {
         val clipboard = getSystemService(ClipboardManager::class.java)
-        clipboard.primaryClip = ClipData.newPlainText(getString(R.string.app_name), text)
+        clipboard.setPrimaryClip(ClipData.newPlainText(getString(R.string.app_name), text))
         // Android 13+ shows its own clipboard confirmation.
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.TIRAMISU) {
             toast(R.string.toast_copied)
